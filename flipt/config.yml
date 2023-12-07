@@ -1,0 +1,21 @@
+# see https://github.com/flipt-io/flipt/tree/main/config for examples
+
+server:
+  http_port: 8080
+  grpc_port: 9000
+
+meta:
+  telemetry_enabled: false
+  check_for_updates: false
+
+log:
+  level: DEBUG
+  encoding: console
+
+db:
+  url: file:/var/opt/flipt/flipt.db  # file: informs flipt to use SQLite
+
+# storage:
+#   type: local
+#   local:
+#     path: "."
