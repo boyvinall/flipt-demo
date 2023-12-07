@@ -4,8 +4,8 @@ import (
 	"context"
 	"log/slog"
 
+	flipt "github.com/open-feature/go-sdk-contrib/providers/flipt/pkg/provider"
 	"github.com/open-feature/go-sdk/pkg/openfeature"
-	"go.flipt.io/flipt-openfeature-provider/pkg/provider/flipt"
 )
 
 const (
